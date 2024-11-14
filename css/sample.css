@@ -628,7 +628,7 @@ p {
 .v-prev-btn,
 .v-next-btn {
   position: absolute;
-  top: 50%; 
+  top: 50%;
   transform: translateY(-50%);
   background-color: var(--primary);
   color: var(--secondary);
@@ -756,12 +756,12 @@ h2 span {
 }
 
 .testimonial {
-  width: 300px; 
+  width: 300px;
   padding: 50px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-right: -100px; 
+  margin-right: -100px;
   z-index: 1;
   transition: transform 0.3s ease, z-index 0.3s ease;
 }
@@ -800,18 +800,18 @@ h2 span {
 .ab-prev-btn,
 .ab-next-btn {
   position: absolute;
-  top: 50%; 
+  top: 50%;
   transform: translateY(-50%);
   background-color: var(--primary);
   color: var(--secondary);
   border: none;
   padding: 10px;
-  width: 40px; 
+  width: 40px;
   height: 40px;
   cursor: pointer;
   font-size: 20px;
   z-index: 2;
-  border-radius: 50%; 
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1086,10 +1086,6 @@ li {
   .auth-links {
     margin-left: 1rem;
   }
-  .menu-btn {
-    display: none;
-  }
-
   .hero-content {
     display: flex;
     text-align: left;
@@ -1114,90 +1110,101 @@ li {
     font-size: x-small;
     text-align: left;
   }
-  
-  .search-item{
+
+  .search-item {
     width: 30%;
     gap: 1rem;
   }
-  #location, #date, #guest{
-   font-size: xx-small;
+  #location,
+  #date,
+  #guest {
+    font-size: xx-small;
   }
-.explore-btn{
-  font-size: x-small;
-  width: 20%;
-  height: 10%;
-}
+  .explore-btn {
+    font-size: x-small;
+    width: 20%;
+    height: 10%;
+  }
   .deals-container {
     grid-template-columns: 1fr;
-    gap: 1rem;  
-  display: flex;
-}
-#deals-bold, #deals-test{
-  font-size: x-small;
-} 
-.prev-btn, .next-btn{
-  display: none;
-}
+    gap: 1rem;
+    display: flex;
+  }
+  #deals-bold,
+  #deals-test {
+    font-size: x-small;
+  }
+  .prev-btn,
+  .next-btn {
+    display: none;
+  }
   .search-section {
     all: unset;
     gap: 5rem;
-    width: 60%; 
+    width: 60%;
     justify-content: center;
   }
-  .search-item{
+  .search-item {
     all: unset;
     margin-left: 2rem;
     gap: 2px;
   }
-  .explore-btn{
+  .explore-btn {
     width: 20px;
     align-items: center;
     margin-left: 4px;
   }
-  .values img,del{
+  .values img,
+  del {
     display: none;
   }
-  .ctry, .amt, .days .small{
+  .ctry,
+  .amt,
+  .days .small {
     font-size: xx-small;
   }
-  .vacs img{
+  .vacs img {
     display: none;
   }
-  .v-prev-btn, .v-next-btn{
+  .v-prev-btn,
+  .v-next-btn {
     display: none;
   }
-  .ab-prev-btn, .ab-next-btn{
+  .ab-prev-btn,
+  .ab-next-btn {
     display: none;
   }
-  .newsletter{
+  .newsletter {
     width: 80%;
     display: flex;
   }
-  .submit{
+  .submit {
     left: 15rem;
   }
-  .footer{
+  .footer {
     display: flex;
   }
-  .column-1 h3{
+  .column-1 h3 {
     font-size: medium;
   }
-  .footer-text{
+  .footer-text {
     font-size: small;
   }
-  .column h3{
+  .column h3 {
     font-size: medium;
   }
-  ul, li, a{
+  ul,
+  li,
+  a {
     font-size: small;
-  }
-    
-/* Tablet devices (medium screens) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  nav {
-    padding: 0.5rem 1rem;
   }
 
+  /* Tablet devices (medium screens) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+      padding: 0.5rem 1rem;
+    }
+  }
   .hero-content {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
@@ -1235,5 +1242,4 @@ li {
     width: 80%;
     margin-left: 9rem;
   }
-}
 }
